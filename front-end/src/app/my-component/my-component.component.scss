@@ -1,0 +1,118 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    display: flex;
+    padding: 50px;
+}
+/*
+#1 {
+
+    transform: scale(3);
+    position: relative;
+    left: 50px;
+    top: 70px;
+}
+
+#2 {
+    transform: scale(3);
+    position: relative;
+    left: 200px;
+    top: 70px;
+    
+}*/
+
+  #italia {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Stile quando si passa sopra il bottone */
+  #italia:hover {
+    background-color: #45a049;
+  }
+  
+  /* Stile quando il bottone viene premuto */
+  #italia:active {
+    background-color: #3e8e41;
+  }
+  
+  /* Stile quando il bottone è disabilitato */
+  #italia:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+
+  #spagna {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Stile quando si passa sopra il bottone */
+  #spagna:hover {
+    background-color: #45a049;
+  }
+  
+  /* Stile quando il bottone viene premuto */
+  #spagna:active {
+    background-color: #3e8e41;
+  }
+  
+  /* Stile quando il bottone è disabilitato */
+  #spagna:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.flag {
+    width: 100px;
+    height: auto;
+}
