@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ricette Tipiche</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #555;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        h3 {
+            color: #777;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        ol {
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .image-container {
+            width: 50%;
+            /* Larghezza desiderata per il contenitore */
+            margin: 0 auto;
+            /* Centra il contenitore orizzontalmente */
+        }
+
+        .scaled-image {
+            width: 50%;
+            /* Larghezza al 100% del contenitore */
+            transform: scale(0.5);
+            /* Scala l'immagine a metà delle dimensioni originali */
+        }
+
+        .visited-label {
+            display: none;
+            /* Nasconde il testo inizialmente */
+            color: green;
+            /* Colore del testo quando viene mostrato */
+        }
+
+        input[type="checkbox"]:checked+.visited-label {
+            display: inline-block;
+            /* Mostra il testo quando il checkbox è spuntato */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Ricette Tipiche dell'Inghilterra</h1>
+
+
+    <h2>Fish & chips</h2>
+    <h3>Ingredienti:</h3>
+    <ul>
+        <li>4 filetti di merluzzo (o altro pesce bianco)</li>
+        <li>200g di farina</li>
+        <li>1 cucchiaino di lievito in polvere</li>
+        <li>Sale</li>
+        <li>Pepe</li>
+        <li>Olio vegetale (per friggere)</li>
+        <li>Patate (tagliate a bastoncini per le chips)</li>
+        <li>Sale (per le chips)</li>
+        <li>Aceto di malto (per condire)</li>
+        <!-- Aggiungi altri ingredienti se necessario -->
+    </ul>
+    <h3>Istruzioni:</h3>
+    <ol>
+
+        <li> In una ciotola, mescolare la farina, il lievito in polvere, il sale e il pepe. Gradualmente aggiungere la
+            birra lager, mescolando bene per ottenere una pastella liscia e senza grumi.</li>
+        <li>Immergere i filetti di merluzzo nella pastella, assicurandosi che siano completamente ricoperti.</li>
+        <li>Scaldare l'olio vegetale in una padella o in una friggitrice fino a quando raggiunge una temperatura di
+            circa 180°C.</li>
+        <li>Preparare le patate tagliandole a bastoncini e asciugandole bene. Friggerle nell'olio caldo fino a quando
+            diventano dorate e croccanti. Scolarle su carta assorbente e condire con sale.</li>
+        <li>Prendere i filetti di merluzzo dalla pastella e friggerli nell'olio caldo fino a quando diventano dorati e
+            croccanti. Scolarli su carta assorbente per eliminare l'eccesso di olio.</li>
+        <li>Servire il Fish and Chips caldo, accompagnato dalle patatine fritte e condito con sale e aceto di malto.
+            Aggiungere una fetta di limone se desiderato.</li>
+        <!-- Aggiungi altre istruzioni se necessario -->
+    </ol>
+
+    <img src="./img/fishchips.jpg" alt="Fish and Chips" class="scaled-image">
+    <input type="checkbox" id="visited-checkbox">
+    <label for="visited-checkbox" class="visited-label">Paese visitato</label>
+    <script src="./script.js"></script>
+    <p><a href="http://172.16.0.203:4200/">Torna alla pagina principale</a></p>
+</body>
+
+</html>

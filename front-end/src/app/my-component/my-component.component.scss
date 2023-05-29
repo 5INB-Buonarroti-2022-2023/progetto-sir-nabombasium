@@ -1,118 +1,58 @@
-
-header{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    display: flex;
-    padding: 50px;
-}
-/*
-#1 {
-
-    transform: scale(3);
-    position: relative;
-    left: 50px;
-    top: 70px;
-}
-
-#2 {
-    transform: scale(3);
-    position: relative;
-    left: 200px;
-    top: 70px;
-    
-}*/
-
-  #italia {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  /* Stile quando si passa sopra il bottone */
-  #italia:hover {
-    background-color: #45a049;
-  }
-  
-  /* Stile quando il bottone viene premuto */
-  #italia:active {
-    background-color: #3e8e41;
-  }
-  
-  /* Stile quando il bottone è disabilitato */
-  #italia:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
-  }
-
-
-  #spagna {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  /* Stile quando si passa sopra il bottone */
-  #spagna:hover {
-    background-color: #45a049;
-  }
-  
-  /* Stile quando il bottone viene premuto */
-  #spagna:active {
-    background-color: #3e8e41;
-  }
-  
-  /* Stile quando il bottone è disabilitato */
-  #spagna:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
-  }
-
-h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 10px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin-bottom: 20px;
-}
-
-li {
-    margin-bottom: 10px;
-}
-
-a {
-    text-decoration: none;
-    color: #333;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
+/* Stili per la classe .flag */
 .flag {
-    width: 100px;
-    height: auto;
+  width: 100px;
+  height: auto;
+}
+
+/* Stili per l'h1 */
+h1 {
+  text-align: center;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* Stili per la classe .search-bar */
+.search-bar {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Stili per la classe .search-input */
+.search-input {
+  width: 200px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+/* Stili per la classe .button-container */
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Stili per la classe .button */
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  margin: 50px;
+  color: #333;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;  
+  font-weight: bold;
+}
+
+/* Stili per l'immagine all'interno della classe .button */
+.button img {
+  width: 250px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+/* Stili per lo span all'interno della classe .button */
+.button span {
+  font-size: 14px;
+  text-align: center;
 }
