@@ -1,77 +1,110 @@
 <div>
 
-    <head>
-      <title>Sito di Ricette Culinarie</title>
-      <style>
-        body {
-            background-color: #d7ffd9;
-        }
+  <head>
+    <title>Sito di Ricette Culinarie</title>
+    <style>
+      body {
+        background-color: #d7ffd9;
+      }
 
-        .flag {
-          width: 100px;
-         
-          height: auto;
-        }
-      </style>
-        <style>
-          /* Stili per il form */
-          form {
-            text-align: center;
-            margin-bottom: 20px;
-          }
-      
-          /* Stili per la classe .search-input */
-          .search-input {
-            width: 300px;
-            padding: 5px;
-            font-size: 16px;
-          }
-      
-          /* Stili per la classe .button */
-          .button {
-            padding: 8px 20px;
-            font-size: 16px;
-            background-color: #d7ffd9;
-            color: black;
-            border: none;
-            cursor: pointer;
-          }
-      
-          /* Stili per la classe .button:hover */
-          .button:hover {
-            background-color: #94b195;
-          }
-        </style>
-    </head>
-    <body>
-      <div>
-        <h1>Seleziona uno stato:</h1>
-    
-    
-        <div class="button-container">
-          <a class="button" href="../../assets/italia.html">
-            <img src="../../assets/img/italia.jpg" alt="Italia">
-            <span>Italia</span>
-          </a>
-          <a class="button" href="../../assets/francia.html">
-            <img src="../../assets/img/francia.jpg" alt="Francia">
-            <span>Francia</span>
-          </a>
-          <a class="button" href="../../assets/germania.html">
-            <img src="../../assets/img/germania.png" alt="Germania">
-            <span>Germania</span>
-          </a>
-          <a class="button" href="../../assets/germania.html">
-            <img src="../../assets/img/spagna.png" alt="Spagna">
-            <span>Spagna</span>
-          </a>
-          <a class="button" href="../../assets/inghilterra.html">
-            <img src="../../assets/img/inghilterra.png" alt="Inghilterra">
-            <span>Inghilterra</span>
-          </a>
-        </div>
+      .flag {
+        width: 100px;
+
+        height: auto;
+      }
+    </style>
+    <style>
+      /* Stili per il form */
+      form {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      /* Stili per la classe .search-input */
+      .search-input {
+        width: 300px;
+        padding: 5px;
+        font-size: 16px;
+      }
+
+      /* Stili per la classe .button */
+      .button {
+        padding: 8px 20px;
+        font-size: 16px;
+        background-color: #d7ffd9;
+        color: black;
+        border: none;
+        cursor: pointer;
+      }
+
+      /* Stili per la classe .button:hover */
+      .button:hover {
+        background-color: #94b195;
+      }
+
+      .bottone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .bottone {
+        display: inline-block;
+        padding: 12px 24px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .bottone:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <h1>Seleziona uno stato:</h1>
+
+
+      <div class="button-container">
+        <a class="button" href="../../assets/italia.html">
+          <img src="../../assets/img/italia.jpg" alt="Italia">
+          <span>Italia</span>
+        </a>
+        <a class="button" href="../../assets/francia.html">
+          <img src="../../assets/img/francia.jpg" alt="Francia">
+          <span>Francia</span>
+        </a>
+        <a class="button" href="../../assets/germania.html">
+          <img src="../../assets/img/germania.png" alt="Germania">
+          <span>Germania</span>
+        </a>
+        <a class="button" href="../../assets/spagna.html">
+          <img src="../../assets/img/spagna.png" alt="Spagna">
+          <span>Spagna</span>
+        </a>
+        <a class="button" href="../../assets/inghilterra.html">
+          <img src="../../assets/img/inghilterra.png" alt="Inghilterra">
+          <span>Inghilterra</span>
+        </a>
       </div>
-    </body>
-    
-    
     </div>
+    <br><br><br>
+    <h1>Clicca qui per il login</h1>
+    <a href="../../assets/login.html"><button class="bottone">Accedi</button></a>
+  </body>
+
+
+</div>
